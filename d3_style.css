@@ -1,0 +1,43 @@
+.container {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.intro {
+    text-align: center;
+}
+
+.grid-table {
+    display:grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+}
+/* for mobile phone*/
+@media (max-width: 600px) {
+    .grid-table {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto;
+    }
+}
+
+
+
+p {
+    color: red;
+}
+h3 {
+    color: green;
+}
+.about-list-item {
+    font-style: italic;
+}
+#my-name {
+    color:blue;
+}
+
+
+/*
+Element selector
+Class selector
+ID selector
+*/
